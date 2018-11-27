@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "TestNG">
+
+   <test name = "TestSuite Sigma">
+      <classes>
+         <class name = "webAutomationChrome.FörstaFlödet" />
+         <class name = "webAutomationChrome.TredjeFlödet" />
+         <class name = "webAutomationChrome.FjärdeFlödet" />
+         <class name = "webAutomationChrome.FemteFlödet" />
+              <class name = "webAutomationChrome.SearchJob" />
+         <class name = "CSVTestet.CSVdata" />
+      </classes>
+   </test>  
+</suite>  
